@@ -87,7 +87,7 @@ function About() {
               onFocus={() => handleFocus("firstName")}
               placeholder="Enter your First Name"
             />
-            <div className="error-message">{focus.firstName && alert.firstName}</div>
+            <div className="error-message">{ alert.firstName}</div>
           </label>
           <label>
             <input
@@ -98,7 +98,7 @@ function About() {
               onFocus={() => handleFocus("lastName")}
               placeholder="Enter your Last Name"
             />
-            <div className="error-message">{focus.lastName && alert.lastName}</div>
+            <div className="error-message">{ alert.lastName}</div>
           </label>
           <label>
             <input
@@ -109,7 +109,7 @@ function About() {
               onFocus={() => handleFocus("email")}
               placeholder="Enter your email"
             />
-            <div className="error-message">{focus.email && alert.email}</div>
+            <div className="error-message">{ alert.email}</div>
           </label>
           <label>
             <input
@@ -120,7 +120,7 @@ function About() {
               onFocus={() => handleFocus("phoneNum")}
               placeholder="Enter your Phone Number"
             />
-            <div className="error-message">{focus.phoneNum && alert.phoneNum}</div>
+            <div className="error-message">{ alert.phoneNum}</div>
           </label>
           <input type="submit" value={"Register"} className="submit-button" />
         </form>
